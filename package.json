@@ -1,6 +1,6 @@
 {
-  "name": "lm-studio",
-  "version": "1.0.0",
+  "name": "jlogseq-mcp",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "type": "module",
