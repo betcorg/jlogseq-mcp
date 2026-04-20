@@ -8,7 +8,11 @@
     "weather": "./build/index.js"
   },
   "scripts": {
-    "build": "tsc && chmod 755 build/index.js"
+    "build": "tsc && chmod 755 build/index.js",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "files": [
     "build"
@@ -26,7 +30,10 @@
     "@logseq/libs": "^0.0.17",
     "@types/node": "^25.6.0",
     "eslint": "^10.2.1",
+    "eslint-config-prettier": "^10.1.8",
     "globals": "^17.5.0",
+    "jiti": "^2.6.1",
+    "prettier": "^3.8.3",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.58.2"
   }
